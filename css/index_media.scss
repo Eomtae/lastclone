@@ -1,0 +1,101 @@
+$mobile: 767px;
+$tablet: 1023px;
+$desktop : 1024px;
+
+/*반응형 mixin으로 깔끔하게 사용하기*/
+@mixin device($min,$max){
+  @media (min-width: $min) and (max-width: $max){ 
+    @content;
+  }
+}
+
+@include device(320px, $mobile){
+  .main-banner{
+    
+    .campain-container{
+      display: flex;
+      flex-direction: column;
+      .campain-left{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        .btn-swiper{
+          width:100%;
+          top:85%;
+          left:85%;
+        }
+      }
+    .campain-right{
+      width:100%;
+      div{
+        display: flex;
+
+      .campain-left-box {
+        font-size: 30px;
+      }
+      .campain-right-box {
+        font-size: 16px;
+      }
+      }
+    }
+  }
+  // campain-------------------------------
+  .product-container{
+    width: 100%;
+    .product-left {
+      font-size: 1.375rem;
+      .btn{
+        padding:10px;
+        width:50%;
+      }
+      h5{
+        font-size: 2.25rem;
+      }
+    }
+    .product-right {
+      padding: 250px 0 200px 0;
+      .btn-swiper{
+        position:absolute;
+        width: 50%;
+        left:25%; top:55%;
+      }
+    }
+  }/* -----------------------product -------------*/
+
+  .news-sns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .news-container {
+      width: 100%;
+      .news-right {
+        width: 50%;      
+        .btn-swiper{
+          position:absolute;
+          width: 40%;
+          left: 85%; 
+          top:46%;
+          img{
+            width:30px;
+          }
+        }
+      }
+    }
+    .sns-container {
+      width:100%;
+      .sns-header{
+        width:100%;
+      }
+      .sns-mainbox{
+        width:100%;
+        padding: 30px;        
+      }
+      }
+  }
+  }// main---------------------
+}
+
+
+
+
+

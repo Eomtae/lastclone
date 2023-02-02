@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*반응형 mixin으로 깔끔하게 사용하기*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .main-banner {
+    /* -----------------------product -------------*/
+  }
+  .main-banner .campain-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-banner .campain-container .campain-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .main-banner .campain-container .campain-left .btn-swiper {
+    width: 100%;
+    top: 85%;
+    left: 85%;
+  }
+  .main-banner .campain-container .campain-right {
+    width: 100%;
+  }
+  .main-banner .campain-container .campain-right div {
+    display: flex;
+  }
+  .main-banner .campain-container .campain-right div .campain-left-box {
+    font-size: 30px;
+  }
+  .main-banner .campain-container .campain-right div .campain-right-box {
+    font-size: 16px;
+  }
+  .main-banner .product-container {
+    width: 100%;
+  }
+  .main-banner .product-container .product-left {
+    font-size: 1.375rem;
+  }
+  .main-banner .product-container .product-left .btn {
+    padding: 10px;
+    width: 50%;
+  }
+  .main-banner .product-container .product-left h5 {
+    font-size: 2.25rem;
+  }
+  .main-banner .product-container .product-right {
+    padding: 250px 0 200px 0;
+  }
+  .main-banner .product-container .product-right .btn-swiper {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 55%;
+  }
+  .main-banner .news-sns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-banner .news-sns .news-container {
+    width: 100%;
+  }
+  .main-banner .news-sns .news-container .news-right {
+    width: 50%;
+  }
+  .main-banner .news-sns .news-container .news-right .btn-swiper {
+    position: absolute;
+    width: 40%;
+    left: 85%;
+    top: 46%;
+  }
+  .main-banner .news-sns .news-container .news-right .btn-swiper img {
+    width: 30px;
+  }
+  .main-banner .news-sns .sns-container {
+    width: 100%;
+  }
+  .main-banner .news-sns .sns-container .sns-header {
+    width: 100%;
+  }
+  .main-banner .news-sns .sns-container .sns-mainbox {
+    width: 100%;
+    padding: 30px;
+  }
+}/*# sourceMappingURL=index_media.css.map */

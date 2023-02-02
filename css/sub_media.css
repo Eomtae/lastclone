@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@media (max-width: 767px) {
+  @font-face {
+    font-family: "bold";
+    src: url(../font/Pretendard-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "medium";
+    src: url(../font/Pretendard-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "regular";
+    src: url(../font/Pretendard-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  html,
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Pretendard", "Noto Sans SC", "Noto Sans KR", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif, "Montserrat";
+    width: 100%;
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 25px;
+    line-height: 1.7;
+  }
+  h1,
+h2,
+h3,
+h4,
+p,
+figure {
+    margin: 0;
+  }
+  ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul img,
+li img {
+    vertical-align: middle;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a,
+i,
+em,
+strong,
+b,
+code,
+::after,
+::before {
+    display: inline-block;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .brand {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .brand .top-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  main .brand .top-banner .top-left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10.25rem;
+    margin-left: 8.4375rem;
+  }
+  main .brand .top-banner .top-left img {
+    width: 25rem;
+    height: 25rem;
+  }
+  main .brand .top-banner .top-right {
+    width: 70%;
+    margin: 0 auto;
+  }
+  main .brand .top-banner .top-right .one {
+    font-size: 1.25rem;
+  }
+  main .brand .top-banner .top-right .two {
+    font-size: 1.25rem;
+  }
+  main .brand .top-banner .top-right .three-box {
+    width: 100%;
+    height: 3.75rem;
+    border: dashed 1px #000;
+    margin: 20px 0;
+    padding-left: 1.25rem;
+    line-height: 3;
+    display: block;
+    font-size: 1rem;
+  }
+  main .brand .top-banner .top-right .four {
+    font-size: 1.25rem;
+  }
+  main .brand .low-banner {
+    width: 100%;
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .brand .low-banner .low-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-family: "bold";
+    font-weight: 300;
+    margin-left: 200px;
+  }
+  main .brand .low-banner .low-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  main .brand .low-banner .low-right .low-space {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun {
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun p {
+    font-size: 1rem;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun h3 {
+    font-size: 2rem;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun h4 {
+    font-size: 2rem;
+  }
+  main .brand .low-banner .low-right .low-img img {
+    border-radius: 25px;
+  }
+}/*# sourceMappingURL=sub_media.css.map */
