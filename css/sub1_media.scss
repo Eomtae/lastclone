@@ -119,13 +119,6 @@ $desktop: 1024px;
             font-size: 1.25rem;
           }
           .three-box{
-            width: 100%;
-            height: 3.75rem;
-            border: dashed 1px #000;
-            margin: 20px 0;
-            padding-left: 1.25rem;
-            line-height: 3;
-            display: block;
             font-size: 1rem;
           }
           .four{
@@ -143,15 +136,13 @@ $desktop: 1024px;
         
         
         .low-left{
-          width:30%;
+          width:100%;
           display: flex;
-          flex-direction: column;
-          // justify-content: space-between;
-          // border:3px solid teal;
           font-size : 2.5rem;
-          font-family: 'bold';
-          font-weight: 300;
-          margin-left: 200px;
+          margin-left: 0px;
+          p{
+            text-align: center;
+          }
         }
         .low-right{
           display:flex;

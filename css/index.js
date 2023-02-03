@@ -40,6 +40,31 @@ function footer(){
     localStorage.clear('idx');
 }
 let i=0
+/////////////////////////////////////////
+setTimeout(()=>{
+
+    const box = document.querySelector('.menu-box');
+    console.log(box)
+    box.addEventListener('click',menuToggle)
+},300)
+
+    function menuToggle(){
+    const elOpen = document.querySelector(".menu-box"),
+          elMenu = document.querySelector(".menu"),
+          elMenuimg = document.querySelector(".menu img")
+
+    elOpen.addEventListener("click", function () {
+        elMenu.classList.add("fade");
+        $(".menu-box").css("display", "none");
+      }); //버거메뉴 열때
+      elMenuimg.addEventListener("click", function () {
+        elMenu.classList.remove("fade");
+        $(".menu-box").css("display", "block");
+      }); //버거메뉴 눌렀을때 열고 닫기
+}
+
+
+
 
 
 

@@ -112,6 +112,39 @@ header{
         padding: 15px;
         img{padding-left:20px;}
       }
+      .menu {
+        position: fixed;
+        background-color: #fff;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        transition: 1s;
+        width: 300px;
+        right: -360px;
+        margin-left: 30px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+  
+        ul {
+          font-size: 22px;
+          font-weight: bold;
+          line-height: 3.8;
+  
+          a {
+            color: rgb(222, 222, 222);
+
+            font-weight: bold;
+            margin-left: 30px;
+          }
+        }
+        &.fade {
+          transition: 1s;
+          transform: translateX(-360px);
+        }
+      }
+  
     }
   }
 }

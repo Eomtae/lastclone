@@ -125,6 +125,7 @@ code,
 .sub2-story .big-box .many-box .imgbox01 button {
   background: transparent;
   height: 2rem;
+  cursor: pointer;
 }
 .sub2-story .big-box .many-box .imgbox01 li {
   display: flex;
@@ -149,6 +150,7 @@ code,
 .sub2-story .big-box .many-box .imgbox02 button {
   background: transparent;
   height: 2rem;
+  cursor: pointer;
 }
 .sub2-story .big-box .many-box .imgbox02 li {
   display: flex;

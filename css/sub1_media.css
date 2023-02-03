@@ -105,13 +105,6 @@ code,
     font-size: 1.25rem;
   }
   main .brand .top-banner .top-right .three-box {
-    width: 100%;
-    height: 3.75rem;
-    border: dashed 1px #000;
-    margin: 20px 0;
-    padding-left: 1.25rem;
-    line-height: 3;
-    display: block;
     font-size: 1rem;
   }
   main .brand .top-banner .top-right .four {
@@ -126,13 +119,13 @@ code,
     align-items: center;
   }
   main .brand .low-banner .low-left {
-    width: 30%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     font-size: 2.5rem;
-    font-family: "bold";
-    font-weight: 300;
-    margin-left: 200px;
+    margin-left: 0px;
+  }
+  main .brand .low-banner .low-left p {
+    text-align: center;
   }
   main .brand .low-banner .low-right {
     display: flex;
