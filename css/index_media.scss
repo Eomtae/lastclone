@@ -11,7 +11,13 @@ $desktop : 1024px;
 
 @include device(320px, $mobile){
   .main-banner{
-    
+    .sub-banner{
+      .whole-banner{
+        .main-text{
+          font-size: 4.375rem;
+        }
+      }
+    }
     .campain-container{
       display: flex;
       flex-direction: column;
