@@ -253,7 +253,7 @@ code,
           animation: textup 1.5s alternate;
 }
 .main-banner .product-container .product-left .btn {
-  width: 25%;
+  width: 50%;
   border: solid 1px #000;
   border-radius: 100% 100%;
   font-family: "bold";

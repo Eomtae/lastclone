@@ -1,72 +1,4 @@
-@charset "UTF-8";
 @media (max-width: 767px) {
-  @font-face {
-    font-family: "bold";
-    src: url(../font/Pretendard-Bold.woff2) format("woff2");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "medium";
-    src: url(../font/Pretendard-Medium.woff2) format("woff2");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "regular";
-    src: url(../font/Pretendard-Regular.woff2) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  html,
-body {
-    margin: 0 auto;
-    font-size: 16px;
-    font-family: "Pretendard", "Noto Sans SC", "Noto Sans KR", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif, "Montserrat";
-    width: 100%;
-    max-width: 1920px;
-    width: 100%;
-    padding: 0 25px;
-    line-height: 1.7;
-  }
-  h1,
-h2,
-h3,
-h4,
-p,
-figure {
-    margin: 0;
-  }
-  ul,
-li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  ul img,
-li img {
-    vertical-align: middle;
-  }
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  a,
-i,
-em,
-strong,
-b,
-code,
-::after,
-::before {
-    display: inline-block;
-  }
   main {
     width: 100%;
     margin: 0 auto;
@@ -93,6 +25,11 @@ code,
   main .brand .top-banner .top-left img {
     width: 25rem;
     height: 25rem;
+  }
+  main .brand .top-banner .top-left p {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-right: 25%;
   }
   main .brand .top-banner .top-right {
     width: 70%;
