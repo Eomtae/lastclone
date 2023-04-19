@@ -21,60 +21,6 @@
     font-style: normal;
     font-display: swap;
   }
-  
-  html,
-  body {
-    margin: 0 auto;
-    font-size: 16px;
-    font-family: "Pretendard", "Noto Sans SC", "Noto Sans KR", Dotum, 돋움,
-      Helvetica, "Apple SD Gothic Neo", sans-serif, "Montserrat";
-    width: 100%;
-    max-width: 1920px;
-    width:100%;
-    padding:0 25px;
-    line-height: 1.7;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  p,
-  figure {
-    margin: 0;
-  }
-  
-  ul,
-  li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  ul img,
-  li img {
-    vertical-align: middle;
-  }
-  
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  a,
-  i,
-  em,
-  strong,
-  b,
-  code,
-  ::after,
-  ::before {
-    display: inline-block;
-  }
-
     .sub2-story{
         width:100%;
         // margin-bottom: 500px;
@@ -202,5 +148,3 @@
           }
     }//big-box
     }//--------------sub2-stroy
-
-    @import './sub2_media.scss';

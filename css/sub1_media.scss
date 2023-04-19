@@ -1,14 +1,4 @@
-$mobile: 767px;
-$desktop: 1024px;
-
-@mixin device($max) {
-  @media (max-width: $max) {
-    @content;
-  }
-}
-
-@include device($mobile) {
-
+@media screen and(min-width:768px) and (max-width:1024px) {
   main{
     width:100%;
     margin: 0 auto;
@@ -103,6 +93,229 @@ $desktop: 1024px;
             .low-img{
               img{
                 border-radius: 25px;
+              }
+        }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width:500px) and (max-width:767px) {
+  main{
+    width:100%;
+    margin: 0 auto;
+    .brand{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      .top-banner{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 10%;
+        .top-left{
+          width:80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin: 10%;
+          align-items: center;
+          img{
+            width: 50%;
+            height: auto;
+          }
+          p{
+            font-size: 1.75rem;
+            text-align: center;
+          }
+        }
+        .top-right{
+          width:70%;
+          margin: 0 auto;
+          .one{
+            font-size: 1.25rem;
+          }
+          .two{
+            font-size: 1.25rem;
+          }
+          .three-box{
+            font-size: 0.75rem;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+          }
+          .four{
+            font-size : 1.25rem;;
+          }
+        }
+      }
+      .low-banner{
+        width:100%;
+        margin-top: 6.25rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        .low-left{
+          width:100%;
+          display: flex;
+          font-size : 2.5rem;
+          margin-left: 0px;
+          p{
+            text-align: center;
+          }
+        }
+        .low-right{
+          display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin: 0 auto;
+          
+            .low-space{
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: center;
+              .low-fun{
+                width: 100%;
+                text-align: center;
+                line-height: 1.3;
+                p{
+                  font-size: 1rem;
+                }
+              }
+                .low-fun h3{
+                  font-size: 2rem;
+                }
+                .low-fun h4{
+                  font-size: 2rem;
+                }
+            }
+            .low-img{
+              img{
+                border-radius: 25px;
+              }
+        }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width:290px) and (max-width:499px) {
+  main{
+    width:100%;
+    margin: 0 auto;
+    .brand{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      .brand-story{
+        h2{
+          font-size: 2rem;
+        }
+        span{
+          font-size: 1.5rem;
+        }
+      }
+      .top-banner{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 10%;
+        .top-left{
+          width:80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin: 10%;
+          align-items: center;
+          img{
+            width: 50%;
+            height: auto;
+          }
+          p{
+            font-size: 1rem;
+            text-align: center;
+          }
+        }
+        .top-right{
+          width:100%;
+          margin: 0 auto;
+          .one{
+            font-size: .75rem;
+          }
+          .two{
+            font-size: .75rem;
+          }
+          .three-box{
+            font-size: .75rem;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+          }
+          .four{
+            font-size : .75rem;;
+          }
+        }
+      }
+      .low-banner{
+        width:100%;
+        margin-top: 3.125rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        .low-left{
+          width:100%;
+          display: flex;
+          font-size : 1.5rem;
+          margin-left: 0px;
+          p{
+            text-align: center;
+          }
+        }
+        .low-right{
+          display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin: 0 auto;
+          
+            .low-space{
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: center;
+              .low-fun{
+                width: 100%;
+                text-align: center;
+                line-height: 1.3;
+                p{
+                  font-size: .75rem;
+                  word-break: keep-all;
+                }
+                h3{
+                 font-size: 1rem;
+               }
+                h4{
+                 font-size: 1rem;
+                 font-weight: bold;
+               }
+              }
+            }
+            .low-img{
+              width: 80%;
+              img{
+                width: 100%;
+                border-radius: 25px;
+                margin-left: 0;
               }
         }
         }

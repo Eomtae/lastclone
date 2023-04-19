@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   main {
     width: 100%;
     margin: 0 auto;
@@ -93,5 +93,218 @@
   }
   main .brand .low-banner .low-right .low-img img {
     border-radius: 25px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .brand {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .brand .top-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  main .brand .top-banner .top-left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10%;
+    align-items: center;
+  }
+  main .brand .top-banner .top-left img {
+    width: 50%;
+    height: auto;
+  }
+  main .brand .top-banner .top-left p {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  main .brand .top-banner .top-right {
+    width: 70%;
+    margin: 0 auto;
+  }
+  main .brand .top-banner .top-right .one {
+    font-size: 1.25rem;
+  }
+  main .brand .top-banner .top-right .two {
+    font-size: 1.25rem;
+  }
+  main .brand .top-banner .top-right .three-box {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+  }
+  main .brand .top-banner .top-right .four {
+    font-size: 1.25rem;
+  }
+  main .brand .low-banner {
+    width: 100%;
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .brand .low-banner .low-left {
+    width: 100%;
+    display: flex;
+    font-size: 2.5rem;
+    margin-left: 0px;
+  }
+  main .brand .low-banner .low-left p {
+    text-align: center;
+  }
+  main .brand .low-banner .low-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  main .brand .low-banner .low-right .low-space {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun {
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun p {
+    font-size: 1rem;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun h3 {
+    font-size: 2rem;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun h4 {
+    font-size: 2rem;
+  }
+  main .brand .low-banner .low-right .low-img img {
+    border-radius: 25px;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 499px) {
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .brand {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .brand .brand-story h2 {
+    font-size: 2rem;
+  }
+  main .brand .brand-story span {
+    font-size: 1.5rem;
+  }
+  main .brand .top-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  main .brand .top-banner .top-left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10%;
+    align-items: center;
+  }
+  main .brand .top-banner .top-left img {
+    width: 50%;
+    height: auto;
+  }
+  main .brand .top-banner .top-left p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  main .brand .top-banner .top-right {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .brand .top-banner .top-right .one {
+    font-size: 0.75rem;
+  }
+  main .brand .top-banner .top-right .two {
+    font-size: 0.75rem;
+  }
+  main .brand .top-banner .top-right .three-box {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+  }
+  main .brand .top-banner .top-right .four {
+    font-size: 0.75rem;
+  }
+  main .brand .low-banner {
+    width: 100%;
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .brand .low-banner .low-left {
+    width: 100%;
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 0px;
+  }
+  main .brand .low-banner .low-left p {
+    text-align: center;
+  }
+  main .brand .low-banner .low-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  main .brand .low-banner .low-right .low-space {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun {
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun p {
+    font-size: 0.75rem;
+    word-break: keep-all;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun h3 {
+    font-size: 1rem;
+  }
+  main .brand .low-banner .low-right .low-space .low-fun h4 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  main .brand .low-banner .low-right .low-img {
+    width: 80%;
+  }
+  main .brand .low-banner .low-right .low-img img {
+    width: 100%;
+    border-radius: 25px;
+    margin-left: 0;
   }
 }/*# sourceMappingURL=sub1_media.css.map */

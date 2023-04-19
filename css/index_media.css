@@ -1,6 +1,4 @@
-@charset "UTF-8";
-/*반응형 mixin으로 깔끔하게 사용하기*/
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .main-banner {
     /* -----------------------product -------------*/
   }
@@ -71,6 +69,226 @@
     width: 40%;
     left: 85%;
     top: 46%;
+  }
+  .main-banner .news-sns .news-container .news-right .btn-swiper img {
+    width: 30px;
+  }
+  .main-banner .news-sns .sns-container {
+    width: 100%;
+  }
+  .main-banner .news-sns .sns-container .sns-header {
+    width: 100%;
+  }
+  .main-banner .news-sns .sns-container .sns-mainbox {
+    width: 100%;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .main-banner {
+    /* -----------------------product -------------*/
+  }
+  .main-banner .sub-banner .whole-banner ul {
+    width: 100%;
+    height: 15vh;
+  }
+  .main-banner .sub-banner .whole-banner ul .main-text {
+    font-size: 3.125rem;
+  }
+  .main-banner .sub-banner .whole-banner .banner-img {
+    width: 100%;
+  }
+  .main-banner .sub-banner .whole-banner .banner-img img {
+    width: 50%;
+    height: 50%;
+  }
+  .main-banner .campain-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-banner .campain-container .campain-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .main-banner .campain-container .campain-left .btn-swiper {
+    width: 100%;
+    top: 85%;
+    left: 85%;
+  }
+  .main-banner .campain-container .campain-right {
+    width: 100%;
+  }
+  .main-banner .campain-container .campain-right div {
+    display: flex;
+  }
+  .main-banner .campain-container .campain-right div .campain-left-box {
+    font-size: 1rem;
+  }
+  .main-banner .campain-container .campain-right div .campain-right-box {
+    font-size: 0.8rem;
+  }
+  .main-banner .product-container {
+    width: 100%;
+  }
+  .main-banner .product-container .product-left {
+    font-size: 1.375rem;
+  }
+  .main-banner .product-container .product-left .btn {
+    padding: 10px;
+    width: 80%;
+  }
+  .main-banner .product-container .product-left h5 {
+    font-size: 1.25rem;
+  }
+  .main-banner .product-container .product-right {
+    margin: 10% 0;
+  }
+  .main-banner .product-container .product-right .btn-swiper {
+    display: none;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 55%;
+  }
+  .main-banner .news-sns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-banner .news-sns .news-container {
+    width: 100%;
+  }
+  .main-banner .news-sns .news-container .news-left li {
+    display: flex;
+    align-items: center;
+  }
+  .main-banner .news-sns .news-container .news-right {
+    width: 50%;
+  }
+  .main-banner .news-sns .news-container .news-right b {
+    font-size: 1.5rem;
+    word-break: keep-all;
+  }
+  .main-banner .news-sns .news-container .news-right .btn-swiper {
+    position: absolute;
+    width: 40%;
+    left: 85%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+  }
+  .main-banner .news-sns .news-container .news-right .btn-swiper img {
+    width: 30px;
+  }
+  .main-banner .news-sns .sns-container {
+    width: 100%;
+  }
+  .main-banner .news-sns .sns-container .sns-header {
+    width: 100%;
+  }
+  .main-banner .news-sns .sns-container .sns-mainbox {
+    width: 100%;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 499px) {
+  .main-banner {
+    /* -----------------------product -------------*/
+  }
+  .main-banner .sub-banner .whole-banner ul {
+    width: 100%;
+    height: 15vh;
+  }
+  .main-banner .sub-banner .whole-banner ul .main-text {
+    font-size: 3.125rem;
+  }
+  .main-banner .sub-banner .whole-banner ul svg {
+    width: 100%;
+  }
+  .main-banner .sub-banner .whole-banner .banner-img {
+    width: 100%;
+  }
+  .main-banner .sub-banner .whole-banner .banner-img img {
+    width: 50%;
+    height: 50%;
+  }
+  .main-banner .campain-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-banner .campain-container .campain-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .main-banner .campain-container .campain-left .btn-swiper {
+    width: 100%;
+    top: 85%;
+    left: 85%;
+  }
+  .main-banner .campain-container .campain-right {
+    width: 100%;
+  }
+  .main-banner .campain-container .campain-right div {
+    display: flex;
+  }
+  .main-banner .campain-container .campain-right div .campain-left-box {
+    font-size: 1rem;
+  }
+  .main-banner .campain-container .campain-right div .campain-right-box {
+    font-size: 0.8rem;
+  }
+  .main-banner .product-container {
+    width: 100%;
+  }
+  .main-banner .product-container .product-left {
+    font-size: 0.75rem;
+  }
+  .main-banner .product-container .product-left p {
+    font-size: 0.75rem;
+  }
+  .main-banner .product-container .product-left .btn {
+    padding: 10px;
+    width: 100%;
+  }
+  .main-banner .product-container .product-left h5 {
+    font-size: 1rem;
+  }
+  .main-banner .product-container .product-right {
+    margin: 10% 0;
+  }
+  .main-banner .product-container .product-right .btn-swiper {
+    display: none;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 55%;
+  }
+  .main-banner .news-sns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-banner .news-sns .news-container {
+    width: 100%;
+  }
+  .main-banner .news-sns .news-container .news-left li {
+    display: flex;
+    align-items: center;
+  }
+  .main-banner .news-sns .news-container .news-right {
+    width: 50%;
+  }
+  .main-banner .news-sns .news-container .news-right b {
+    font-size: 1rem;
+    word-break: keep-all;
+  }
+  .main-banner .news-sns .news-container .news-right .btn-swiper {
+    position: absolute;
+    width: 50%;
+    left: 85%;
+    top: 50%;
+    transform: translate(-50%, 0%);
   }
   .main-banner .news-sns .news-container .news-right .btn-swiper img {
     width: 30px;
